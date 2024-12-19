@@ -22,7 +22,7 @@ Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.Office.Desktop* | Remove-AppxPackage
-Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage - Online -NoRestart
-Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage - Online -NoRestart
-Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage - Online -NoRestart
+Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage -Online -NoRestart
+Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage -Online -NoRestart
+Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage -Online -NoRestart
 
