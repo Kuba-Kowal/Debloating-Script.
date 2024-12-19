@@ -11,7 +11,7 @@ Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *GetHelp* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *onenote* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *photo* | Remove-AppxPackag
+Get-AppxPackage -AllUsers *photo* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *phone* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *store* | Remove-AppxPackage
