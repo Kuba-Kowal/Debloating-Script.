@@ -1,0 +1,28 @@
+Run powershell as administrator to execute these scripts.
+Please paste these scripts one by one
+It seems as if the people script doesn't work - Personally I don't recommend removing things such as photo or mediaplayer but thats up to you to decide.
+
+Get-AppxPackage -AllUsers *alarms* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *calc* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *mess* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *camera* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *GetHelp* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *onenote* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *photo* | Remove-AppxPackag
+Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *phone* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *store* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *soundrec* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *GetHelp* | Remove-AppxPackage
+Get-AppxPackage -AllUsers Microsoft.549981C3F5F10 | Remove-AppxPackage
+Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Office.Desktop* | Remove-AppxPackage
+Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage - Online -NoRestart
+Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage - Online -NoRestart
+Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage - Online -NoRestart
+
